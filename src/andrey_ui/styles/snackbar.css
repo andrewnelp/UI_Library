@@ -5,7 +5,7 @@
   left: 50%;
   margin-left: -120px;
   top: 0;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px 5px 5px 5px;
   box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
   background: #3c8ab8;
   text-align: center;
@@ -14,9 +14,11 @@
   transition: all 0.2s;
 }
 .snackbar.active{
-  margin-top: 0;
+  margin-top: 100;
 }
 
 .snackbar-trigger {
-  margin: 20 auto;
+  margin: 25 auto;
+  position:relative;
+  left: 300px;
 }
