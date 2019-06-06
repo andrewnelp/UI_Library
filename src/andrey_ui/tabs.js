@@ -27,8 +27,8 @@ class Tabs {
       item.classList.remove('active');
     });
     // add new active class
-    const selector = e.target.getAttribute('data-target');
-    const content = this.container.querySelector(selector);
+    const target = e.target.getAttribute('data-target');
+    const content = this.container.querySelector(target);
     content.classList.add('active');
   }
 }
